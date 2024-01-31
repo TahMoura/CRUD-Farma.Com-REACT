@@ -6,7 +6,7 @@ function Navbar() {
 
     return (
         <>
-            <div className='w-full bg-purple-950 text-white flex justify-center py-4'>
+            <div className='w-full bg-green-500 text-white flex justify-center py-4'>
                 <div className="flex justify-center ">
                 {/* <img src={gameLogo} alt="" className='w-2/4' /> */}
                 </div>
