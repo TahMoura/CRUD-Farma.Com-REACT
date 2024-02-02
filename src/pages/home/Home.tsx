@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import homeLogo from '../../assets/homeLogo.svg'
 import ModalPostagem from '../../components/categories/modalCategoria/ModalCategoria';
 
@@ -12,6 +13,9 @@ function Home() {
                         <p className='text-xl'>Descubra este vasto universo de bem-estar, onde você pode se conectar a uma infinidade de soluções para a saúde. </p>
                         <div className="flex justify-around gap-4">
                         <ModalPostagem />
+                        <button className='rounded bg-white text-green-800 py-2 px-4'>
+                        <Link to="/categorias">Ver Categorias</Link>
+                        </button>
                         </div>
                     </div>
 
